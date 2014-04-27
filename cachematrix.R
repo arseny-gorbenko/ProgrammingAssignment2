@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## cacheSolve(x) gets and returns the value of the inverse of 'x' ('inv.matrix') from makeCacheMatrix(x) function
-## if it is already cached there. Otherwise cacheSolve(x) computes, returns, and then transfers the values of 
+## if it has been already cached there. Otherwise cacheSolve(x) computes, returns, and then transfers the values of 
 ## the inverse of 'x' to the makeCacheMatrix(x)'s cache
 
 cacheSolve <- function(x, ...) {
